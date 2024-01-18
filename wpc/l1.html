@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>WPC DEMO L1</title>
+    </head>
+    <body>
+        <script>
+            function copy()
+            {
+                document.getElementById("text2").value = document.getElementById("text1").value;
+            }
+        </script>
+        <form>
+            <label>Text1</label>
+            <input type="text" id="text1"/>
+            <br>
+            <label>Text2</label>
+            <input type="text" id="text2" />
+            <br>
+            <input type="button" value="COPY" onclick="copy()" />
+        </form>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>WPC DEMO</title>
+		<script>
+			function func1()
+			{
+				alert("Hello Friend");
+			}
+			
+		</script>
+	</head>
+	<body>
+		<script>
+            function show()
+			{
+				var txtElement = document.getElementById("txtName");
+				var txtValue = txtElement.value;
+				alert(txtValue);
+			}
+        </script>
+		<form>
+			<label>Name</label>
+			<input type='text' id="txtName" />
+			<label>Age</label>
+			<input type='number' />
+			<label>DOB</label>
+			<input type="date" />
+			<input type="button" value="CLICK ME" onclick="func1()" />
+			<input type="button" value="GET VALUE" onclick="show()" />
+		</form>
+	</body>
+</html>
